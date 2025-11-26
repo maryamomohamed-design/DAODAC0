@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processorer</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #eef2f3, #8e9eab);
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #1f4068;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #3f72af;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Main content */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: rgba(255,255,255,0.95);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Headings */
+h1, h2 {
+    color: #1f4068;
+    margin-bottom: 15px;
+}
+
+h2 {
+    border-bottom: 2px solid #3f72af;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+/* Lists */
+ul {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 10px;
+}
+
+ul li::before {
+    content: "•";
+    color: #3f72af;
+    font-weight: bold;
+    position: absolute;
+    left: -10px;
+}
+
+/* Ordlista */
+.ordlista {
+    background-color: #dbe9f4;
+    padding: 20px;
+    border-left: 6px solid #1f4068;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.ordlista h2 {
+    margin-top: 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    background-color: #1f4068;
+    color: #fff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/* Responsiv design */
+@media (max-width: 768px) {
+    main {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Processorer</h1>
+        <nav>
+            <a href="index.html">Hem</a>
+            <a href="hårdvara.html">Hårdvara</a>
+            <a href="processor.html">Processorer</a>
+            <a href="lagring.html">Lagring</a>
+            <a href="bussar.html">Bussar</a>
+            <a href="bios.html">BIOS</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Olika processortyper</h2>
+        <p>Processorer kan delas in i:</p>
+        <ul>
+            <li><strong>Intel Core</strong> – vanliga i stationära och bärbara datorer.</li>
+            <li><strong>AMD Ryzen</strong> – ofta hög prestanda för spel och grafik.</li>
+            <li><strong>ARM</strong> – används i mobiler och vissa bärbara datorer.</li>
+        </ul>
+        <h2>Användningsområden</h2>
+        <p>Valet av processor beror på vad datorn ska användas till, t.ex. kontorsarbete, spel, videoredigering eller servrar.</p>
+    </main>
+</body>
+</html>
