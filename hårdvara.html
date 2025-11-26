@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hårdvara</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #eef2f3, #8e9eab);
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #1f4068;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #3f72af;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Main content */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: rgba(255,255,255,0.95);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Headings */
+h1, h2 {
+    color: #1f4068;
+    margin-bottom: 15px;
+}
+
+h2 {
+    border-bottom: 2px solid #3f72af;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+/* Lists */
+ul {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 10px;
+}
+
+ul li::before {
+    content: "•";
+    color: #3f72af;
+    font-weight: bold;
+    position: absolute;
+    left: -10px;
+}
+
+/* Ordlista */
+.ordlista {
+    background-color: #dbe9f4;
+    padding: 20px;
+    border-left: 6px solid #1f4068;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.ordlista h2 {
+    margin-top: 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    background-color: #1f4068;
+    color: #fff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/* Responsiv design */
+@media (max-width: 768px) {
+    main {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hårdvara</h1>
+        <nav>
+            <a href="index.html">Hem</a>
+            <a href="hårdvara.html">Hårdvara</a>
+            <a href="processor.html">Processor</a>
+            <a href="lagring.html">Lagring</a>
+            <a href="bussar.html">Bussar</a>
+            <a href="bios.html">BIOS</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Installation och uppbyggnad</h2>
+        <p>Hårdvara är de fysiska komponenterna i datorn. Här är de viktigaste delarna:</p>
+        <ul>
+            <li>Moderkort</li>
+            <li>Processor (CPU)</li>
+            <li>RAM-minne</li>
+            <li>Hårddisk/SSD</li>
+            <li>Grafikkort</li>
+            <li>Nätaggregat</li>
+            <li>Kylsystem</li>
+        </ul>
+
+        <h2>Konfigurering och uppgradering</h2>
+        <p>Efter installation konfigureras datorn med BIOS/UEFI och drivrutiner. Uppgradering kan innebära:</p>
+        <ul>
+            <li>Byta processor, RAM eller grafikkort</li>
+            <li>Byta hårddisk till SSD</li>
+            <li>Bättre kylning eller fler fläktar</li>
+        </ul>
+        <section class="ordlista">
+            <h2>Ordlista – Hårdvara</h2>
+            <ul>
+                <li><strong>Moderkort:</strong> Det största kortet i datorn där alla delar kopplas ihop.</li>
+                <li><strong>CPU (Processor):</strong> Datorns hjärna som tänker och räknar.</li>
+                <li><strong>RAM:</strong> Datorns korttidsminne, där den jobbar med saker snabbt.</li>
+                <li><strong>SSD/Hårddisk:</strong> Där datorn sparar all information, som filer och program.</li>
+                <li><strong>Grafikkort:</strong> Gör bilder och spel tydliga på skärmen.</li>
+                <li><strong>Nätaggregat:</strong> Ger ström till datorn så den kan fungera.</li>
+                <li><strong>Kylsystem:</strong> Håller datorn kall så att den inte blir varm och slutar fungera.</li>
+                <li><strong>BIOS/UEFI:</strong> Startprogrammet som startar datorn och hjälper den att hitta operativsystemet.</li>
+            </ul>
+            </ul>
+            <section class="fragor-svar">
+                <h2>Frågor och Svar – Hårdvara</h2>
+            
+                <h3>1. Vad är cacheminne?</h3>
+                <p>Cacheminne är ett litet och mycket snabbt minne som hjälper processorn att jobba snabbare. Det lagrar information som datorn ofta använder, så att den slipper hämta allt från RAM hela tiden.</p>
+            
+                <h3>2. Vad är skillnaden mellan RAM-minne och hårddisk?</h3>
+                <p>RAM-minne är datorns korttidsminne. Det används när datorn arbetar och töms när du stänger av datorn.</p>
+                <p>Hårddisken (HDD eller SSD) är långtidsminnet där all information sparas, till exempel program, filer, bilder och spel.</p>
+            
+                <h3>3. Vad är förkortningarna RAM, CPU, SSD, HDD och GPU?</h3>
+                <ul>
+                    <li><strong>RAM:</strong> Random Access Memory (Arbetsminne)</li>
+                    <li><strong>CPU:</strong> Central Processing Unit (Processor)</li>
+                    <li><strong>SSD:</strong> Solid State Drive (Snabb lagring)</li>
+                    <li><strong>HDD:</strong> Hard Disk Drive (Långsam hårddisk med rörliga delar)</li>
+                    <li><strong>GPU:</strong> Graphics Processing Unit (Grafikkort)</li>
+                </ul>
+            
+                <h3>4. Ge tre exempel på datorkomponenter</h3>
+                <p>Här är tre vanliga delar i en dator:</p>
+                <ul>
+                    <li>Processor (CPU)</li>
+                    <li>RAM-minne</li>
+                    <li>Grafikkort (GPU)</li>
+                </ul>
+            </section>
+        
+    </main>
+</body>
+</html>
