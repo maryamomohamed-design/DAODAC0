@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operativsystem – Datorkunskap</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Färger */
+    :root {
+        --dark-blue: #1f4068;
+        --mid-blue: #3f72af;
+        --light-blue: #dbe9f4;
+        --white: #ffffff;
+        --text-color: #333;
+    }
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(to right, #eaf3ff, #cddff5);
+        color: var(--text-color);
+        line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+        background: var(--dark-blue);
+        color: var(--white);
+        padding: 25px 0;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.25);
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 8px;
+        letter-spacing: 1px;
+    }
+
+    /* Navigation */
+    nav {
+        margin-top: 10px;
+    }
+
+    nav a {
+        color: var(--white);
+        text-decoration: none;
+        margin: 0 15px;
+        padding: 10px 18px;
+        border-radius: 25px;
+        background-color: rgba(255,255,255,0.10);
+        transition: 0.3s;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        background-color: var(--mid-blue);
+        box-shadow: 0 3px 6px rgba(0,0,0,0.25);
+    }
+
+    /* Main Content */
+    main {
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 35px;
+        background-color: var(--white);
+        border-radius: 18px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    main h2 {
+        color: var(--dark-blue);
+        margin-bottom: 15px;
+        font-size: 1.8rem;
+        border-left: 6px solid var(--mid-blue);
+        padding-left: 12px;
+    }
+
+    main p {
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+        padding: 15px;
+        background-color: var(--dark-blue);
+        color: var(--white);
+        margin-top: 40px;
+    }
+
+    /* Responsiv mobilanpassning */
+    @media (max-width: 768px) {
+        nav a {
+            display: block;
+            margin: 6px auto;
+            width: 80%;
+        }
+
+        main {
+            margin: 20px;
+            padding: 25px;
+        }
+    }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Operativsystem</h1>
+    <nav>
+        <a href="index.html">Hem</a>
+        <a href="hårdvara.html">Hårdvara</a>
+        <a href="processor.html">Processorer</a>
+        <a href="lagring.html">Lagring</a>
+        <a href="bussar.html">Bussar</a>
+        <a href="bios.html">BIOS</a>
+        <a href="operativsystem.html">OS</a>
+    </nav>
+</header>
+
+<main>
+    <h2>Operativsystem – Windows</h2>
+    <p>
+        Ett operativsystem (OS) är den mjukvara som gör att datorn fungerar. 
+        Det är ett operativsystem som startar datorn, hantera filer, kör program och låter oss använda mus, tangentbord och skärm. 
+        Utan ett operativsystem skulle en dator bara vara en tom maskin som inte kan göra något.
+
+    </p>
+
+    <p>
+        
+       Det finns många olika operativsystem, till exempel Windows, macOS, Linux och för mobiler är Android och iOS. 
+       Här har jag valt att skriva om Windows, eftersom det är ett av de mest använda operativsystemen i världen.
+
+    </p>
+
+    <h2>💻 Vad är Windows?</h2>
+    <p>
+        Windows är ett operativsystem skapat av Microsoft. 
+        Det är känt för att vara lätt att använda, ha många program och passa både hemma, i skolan och på arbetsplatser. 
+        I november 1985 kom den första Windowsversionen och har utvecklats mycket under åren. 
+        Idag använder de flesta versioner Windows 10 eller Windows 11.  
+
+
+    </p>
+
+    <h2>Vad gör Windows?</h2>
+
+    <h3>🔧 Hanterar hårdvara</h3>
+    <p>Windows ser till att datorns delar fungerar, till exempel:</p>
+    <ul>
+        <li>Processor</li>
+        <li>Minne (RAM)</li>
+        <li>Hårddisk / SSD</li>
+        <li>Grafikkort</li>
+        <li>USB-enheter</li>
+    </ul>
+
+    <h3>📦 Kör program</h3>
+    <p>Med Windows kan du öppna och använda program som:</p>
+    <ul>
+        <li>Webbläsare (t.ex. Chrome, Edge)</li>
+        <li>Spel</li>
+        <li>Musik- och videospelare</li>
+    </ul>
+
+    <h3>📂 Hanterar filer och mappar</h3>
+    <p>Med Filutforskaren kan du:</p>
+    <ul>
+        <li>Skapa mappar</li>
+        <li>Flytta och kopiera filer</li>
+        <li>Ta bort dokument</li>
+        <li>Sortera och organisera allt</li>
+    </ul>
+
+    <h3>🖱️ Använder ett grafiskt gränssnitt (GUI)</h3>
+    <p>
+        Windows använder ikoner, knappar och menyer, vilket gör det enkelt att använda även om man är nybörjare.
+    </p>
+
+    <h2>🔐 Säkerhet i Windows</h2>
+    <p>Windows har flera viktiga säkerhetsfunktioner:</p>
+    <ul>
+        <li>Windows Defender (antivirus)</li>
+        <li>Brandvägg</li>
+        <li>Användarkonton & lösenord</li>
+        <li>Uppdateringar som fixar säkerhetsproblem</li>
+    </ul>
+
+    <h2>Fördelar med Windows</h2>
+    <ul>
+        <li>Lätt att lära sig</li>
+        <li>Stöds av nästan alla program</li>
+        <li>Bra för spel</li>
+        <li>Fungerar på många typer av datorer</li>
+        <li>Passar både nybörjare och avancerade användare</li>
+    </ul>
+
+    <h2>Nackdelar</h2>
+    <ul>
+        <li>Kräver ibland många uppdateringar</li>
+        <li>Windows-licens kan vara dyr</li>
+        <li>Kan bli långsamt på svaga datorer</li>
+    </ul>
+
+    <div class="box">
+        <h2>Sammanfattning</h2>
+        <p>
+            Windows är ett av världens mest populära operativsystem. Det är enkelt att använda, fungerar på nästan alla datorer och låter oss köra program, hantera filer och använda datorns hårdvara. 
+            Det är därför både skolor, företag och privata användare väljer att använda Windows.
+        </p>
+    </div>
+
+</main>
+
+<footer>
+    <p>© 2025 Datorkunskap – Skolprojekt</p>
+</footer>
+
+</body>
+</html>
